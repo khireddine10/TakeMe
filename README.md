@@ -28,6 +28,7 @@ TakeMe depends on the `urllib3`, `dnspython` and `argparse` python modules.
 Sublist3r depends on the `requests`, `dnspython` and `argparse` python modules.
 
 All these dependencies can be installed using the requirements file:
+
 ```
 pip install -r requirements.txt
 ```
@@ -41,14 +42,19 @@ Short Form    | Long Form     | Description
 
 ## how to use takeme
 * To list all the basic options use -h argument
+
 ```python takeme.py -h```
 
 * To enumerate vulnerable subdomains of specific domain
+
 ```python takeme.py -d example.com```
+
 ```python takeme.py --domain example.com```
 
 * To save the output to a file
+
 ```python takeme.py -d example.com -f exemple.txt ```
+
 ```python takeme.py --domain example.com --file exemple.txt ```
 
 ## License
