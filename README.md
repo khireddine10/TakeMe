@@ -16,11 +16,42 @@ TakeMe is a python tool used to check if the target domain name have subdomains 
 
 ![alt text](https://github.com/khireddine10/TakeMe/blob/main/takeme.png)
 
-# Installation
+## Installation
 ```
 git clone https://github.com/khireddine10/TakeMe
 ```
-# Recommended Python Version:
+## Recommended Python Version:
 TakeMe currently supports **Python 3**.
 
 ## Dependencies:
+TakeMe depends on the `urllib3`, `dnspython` and `argparse` python modules.
+Sublist3r depends on the `requests`, `dnspython` and `argparse` python modules.
+
+All these dependencies can be installed using the requirements file:
+```
+pip install -r requirements.txt
+```
+
+## Usage
+
+Short Form    | Long Form     | Description
+------------- | ------------- |-------------
+-d            | --domain      | Domain name to enumerate subdomains of
+-f            | --file        | Domain name to enumerate subdomains of
+
+## how to use takeme
+* To list all the basic options use -h argument
+```python takeme.py -h```
+
+* To enumerate vulnerable subdomains of specific domain
+```python takeme.py -d example.com```
+```python takeme.py --domain example.com```
+
+* To save the output to a file
+```python takeme.py -d example.com -f exemple.txt ```
+```python takeme.py --domain example.com --file exemple.txt ```
+
+## License
+
+TakeMe is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/khireddine10/TakeMe/blob/main/LICENSE) for more information.
+
