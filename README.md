@@ -1,5 +1,5 @@
 # TakeMe
-TakeMe tool is used to check if the target domain name have subdomains that can be takeovred.
+TakeMe is a python tool used to check if the target domain name have subdomains that can be takeovred.
 
 # How The tool works
 1- The tool have three functions.
