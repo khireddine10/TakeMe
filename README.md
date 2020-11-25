@@ -13,3 +13,5 @@ TakeMe tool is used to check if the target domain name have subdomains that can 
 5- The tool return all the subdomain returned by the sublister tool
 
 6- The tool also return all the subdomains that can be takeovred ( in the terminal output or in a file entred by the user )
+
+![alt text](https://github.com/khireddine10/TakeMe/blob/main/takeme.png)
