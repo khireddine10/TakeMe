@@ -20,3 +20,7 @@ TakeMe is a python tool used to check if the target domain name have subdomains 
 ```
 git clone https://github.com/khireddine10/TakeMe
 ```
+# Recommended Python Version:
+TakeMe currently supports **Python 3**.
+
+## Dependencies:
