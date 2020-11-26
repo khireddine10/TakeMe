@@ -40,7 +40,7 @@ Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
 -d            | --domain      | Domain name to enumerate subdomains of
 -f            | --file        | Domain name to enumerate subdomains of
--sy           | --subdomain   | This used for check the subdomain gived only "without create subdomain list"
+-sS           |               | This used for check the subdomain gived only "without create subdomain list"
 ## how to use takeme
 * To list all the basic options use -h argument
 
