@@ -58,6 +58,9 @@ Short Form    | Long Form     | Description
 
 ```python takeme.py --domain example.com --file exemple.txt ```
 
+* To check one subdomain if vulnerable to subdomain takeover
+``` python takeme.py -d ex.exemple.com -sS  ```
+
 ## License
 
 TakeMe is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/khireddine10/TakeMe/blob/main/LICENSE) for more information.
