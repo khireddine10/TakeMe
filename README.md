@@ -25,6 +25,7 @@ TakeMe currently supports **Python 3**.
 
 ## Dependencies:
 TakeMe depends on the `urllib3`, `dnspython` and `argparse` python modules.
+
 Sublist3r depends on the `requests`, `dnspython` and `argparse` python modules.
 
 All these dependencies can be installed using the requirements file:
@@ -39,7 +40,7 @@ Short Form    | Long Form     | Description
 ------------- | ------------- |-------------
 -d            | --domain      | Domain name to enumerate subdomains of
 -f            | --file        | Domain name to enumerate subdomains of
-
+-sy           | --subdomain   | This used for check the subdomain gived only "without create subdomain list"
 ## how to use takeme
 * To list all the basic options use -h argument
 
