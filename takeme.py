@@ -41,7 +41,7 @@ class TakeMe:
         def dns_recon(subdomain):
             list = []
             dict = {}
-            result = dns.resolver.query(subdomain, 'cname')
+            result = dns.resolver.resolve(subdomain, 'cname')
             list.append(subdomain)
             for cname in result:
                 dict[subdomain] = cname.to_text()
