@@ -5,13 +5,16 @@ from sublister import sublist3r
 from termcolor import colored
 import re,sys
 class TakeMe:
-    # constructor function take two args the domain name and the file name
+    
     def __init__(self,domain_name,file_name,sub_domain):
         self.domain_name = domain_name
         self.file_name = file_name
         self.sub_domain = sub_domain
 
     def check_input(self):
+        """
+        this method used to check the domain entred by the user 
+        """
         domain_name_check = re.compile("^(https?:\/\/(www.|)[a-zA-Z0-9à@_-é]+"
                                        "\.[a-z]+|([a-z]+\.)?[a-zA-Zà@_-é]+\.[a-zA-Z0-9à@_-é]+$)")
         if not domain_name_check.match(self.domain_name):
