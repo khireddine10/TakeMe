@@ -4,6 +4,8 @@ import argparse
 from sublister import sublist3r
 from termcolor import colored
 import re,sys
+
+
 class TakeMe:
     
     def __init__(self,domain_name,file_name,sub_domain):
